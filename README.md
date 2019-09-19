@@ -1,18 +1,14 @@
 # mocap-abstract
 
+Is composed of a canvas on which it is possibl eto draw in real time
+that can upload images
+can be moved and waved
 
-This version of the mocap-abstract used in the final stage (4) of the study.
-Tha canvas aspect has been dismissed, and only the drawing function was maintained 
+current setting
+use the mouse to move the canvas 
+in the mouseDragged function comment and uncomment lines to use th emouse with different mapping 
 
-Use the keyboard to turn on and off the drawing /erasing.
-e - erase,
-1 - activate the drawing function
-2 - activate the erasing function
 
-The drawing function is mapped to the incoming OSC message p1 (in the setting of stage 1 it correspond to left arm of the first dancer)
-
-The erasing function is mapped to the incoming OSC message v1 (in the setting of stage 1 it correspond to left arm of the second dancer)
-
-The first element of each OSC messages corresponds to the x value, and the second element corresponds to the y value.
-
+receive osc on the port 12346
+osc cna be mappe dto different parameter by changing the code
 
