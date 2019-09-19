@@ -1,6 +1,9 @@
 # mocap-abstract
+https://github.com/movingdigits/mocap-abstract/projects
+Main file is MyCanvas.pde
+you will need a folder named data with your images in 
 
-Is composed of a canvas on which it is possibl eto draw in real time
+a canvas on which it is possibl eto draw in real time
 that can upload images
 can be moved and waved
 
