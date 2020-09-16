@@ -1,17 +1,17 @@
 # mocap-abstract
-https://github.com/movingdigits/mocap-abstract/projects
-Main file is MyCanvas.pde
+Main file is Cloth3D__optimized.pde, the main class is defined in MyCanvas.pde
 you will need a folder named data with your images in 
 
-a canvas on which it is possibl eto draw in real time
-that can upload images
-can be moved and waved
+MyCanvas.pde is a canvas on which 
+_it is possibe to draw in real time
+_that can upload images
+_can be moved and waved
 
 current setting
 use the mouse to move the canvas 
-in the mouseDragged function comment and uncomment lines to use th emouse with different mapping 
+in the mouseDragged function comment and uncomment lines to use th emouse with different mapping (lines 85 - 99)
 
 
-receive osc on the port 12346
-osc cna be mappe dto different parameter by changing the code
+The patch receives osc on the port 12346
+osc can be mapped to different parameter by changing the code (lines 256 - 400)
 
